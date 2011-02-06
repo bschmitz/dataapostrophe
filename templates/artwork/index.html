@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}artapostrophe.com: artwork by ekaterina smirnova{% endblock %}
+
+{% block content %}
+	<div id="content">
+		<ul>
+		{% for artwork in artworks %}
+			<li>{{ artwork.name }}
+			<img width="120" src="/media/{{artwork.raw_image}}">
+		{% endfor %}
+		</ul>
+
+		<figure>
+			{% with artworks|first as first_artwork %}
+				<img src="/media/{{ first_artwork.raw_image }}">
+				<figcaption>
+					<h1>{{ first_artwork.name }}</h1>
+					<div>{{ first_artwork.get_medium_display }}</div>
+					<div>{{ first_artwork.width }}" x {{ first_artwork.height }}"</div>
+					<div>{{ first_artwork.get_roman_date }}</div> 
+				</figcaption>
+			{% endwith %}
+		</figure>
+	</div>
+
+{% endblock %}
