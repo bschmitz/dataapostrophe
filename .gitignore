@@ -1,2 +1,4 @@
 *.pyc
-settings.py
+settings*.ini
+.project
+.pydevproject
