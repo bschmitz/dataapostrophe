@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:auto;
+	width:800px;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:14px;
+	background-image: url(index%20graphics/bg_index.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+body#index {
+	background-image:None;
+}
+a:active, a:link, a:visited {
+	color:#999999;
+}
+a:hover {
+	color:#000000;
+}
+.apostrophe {
+	margin-left:600px;
+	background-image:url(portfolio/pictures/apblack1.jpg);
+	width: 159px;
+	height: 153px;
+	border:0;
+}
+.apostrophe a span {
+	display:none;
+}
+.top-navigation-inline {
+	margin: -55px 0 41px 20px;
+}
+.top-navigation-inline a {
+	font-size: 16px;
+	color:#000000;
+	text-decoration:none;
+	
+}
+.top-navigation-inline a:hover {
+	color:#FF0000;
+}
+.top-navigation-inline .selected {
+	color:#FF0000;
+}
+
+
+.projects_navigation {
+	margin: 140px 0 0 44px;
+}
+.about_navigation {
+	margin: 0px 0 0 146px;
+}
+.contact_navigation {
+	margin: -300px 0 0 148px;
+}
+.projects_navigation_s {
+	margin: -150px 0 0 0px;
+}
+.about_navigation_s {
+	margin: 7px 0 0 -5px;
+}
+.contact_navigation_s {
+	margin: -85px 0 0 13px;
+}
+
+.menu_navigation {
+	margin: -50px 0 0 -20px;
+	
+	width:299px;
+	float:left;
+}
+.menu_navigation a span {
+	display:none;
+}
+.main-navigation {
+	padding: 65px 0 0 40px;
+}
+.cv {
+	margin: 100px 0 -140px 20px;
+	width: 700px;
+	font-size:14px;
+	
+}
+.cv_center {
+	text-align:center;
+}
+.cv ul {
+	margin-left: 80px;
+}
+.main-navigation a {
+	font-size: 20px;
+	text-decoration:none;
+	color:#000000;
+}
+.main-navigation a:hover {
+	color: #FF0000;
+}
+
+.projects a {
+	margin: 100px 0 0 24px;
+	width:100px;
+	height:203px;
+	float: left;
+	display:block;
+	background-image:url(navigation/projects.jpg);
+}
+.projects a:hover {
+	background-image:url(navigation/projects.act.jpg);
+}
+.contact a {
+	width:147px;
+	height:201px;
+	float: left;
+	display:block;
+	background-image:url(navigation/cont.jpg);
+}
+.contact a:hover {
+	background-image:url(navigation/cont.act2.jpg);
+}
+.about a {
+	width:155px;
+	height:162px;
+	float: left;
+	display:block;
+	background-image:url(navigation/about.act2.jpg);
+}
+.about a:hover {
+	background-image:url(navigation/about.act.jpg);
+}
+.left_column {
+	margin: 115px 0 0 118px;
+	float:left;
+}
+.left_column_links {
+	margin: -34px 21px 0 90px;
+	float:left;
+	font-size:25px;
+}
+.right_column_menu {
+	width:498px;
+	height:320px;
+	border-left: medium #000000 groove;
+	float: left;
+}
+.right_column {
+	width:498px;
+	height:320px;
+	border-left: medium #000000 groove;
+	float: left;
+	margin:95px 0 0 0;
+}
+.right_column_contact {
+	font-size: 14px;
+	padding: 95px 0 0 40px;
+}
+.right_column_portfolio {
+	font-size: 14px;
+	padding: 80px 0 0 40px;
+}
+.right_column_about {
+	font-size: 14px;
+	padding: 25px 0 0 30px;
+}
+.right_column_links {
+	font-size: 14px;
+	padding: 0px 0 0 30px;
+}
+blockquote {
+	line-height:2em;
+	font-size:20px; 
+	padding:80px 20px;
+	margin:0;
+}
+
+blockquote .first-letter {
+	display:block;
+	float: left;
+	padding: 0px 0 0 50px;
+	background:url(pictures/quote1.jpg) top left no-repeat;
+}
+
+blockquote .last-letter {
+	display:inline-block;
+
+	padding: 0 50px 0 0px;
+	background:url(pictures/quote2.jpg) no-repeat;
+}
+
+.extras {
+	margin-top:20px;
+	float:left;
+}
+.extras_box {
+	 background-color: #F0F0F0; 
+	 width: 740px; 
+	 height:150px; 
+	 margin:10px 0 0 20px; 
+	 padding:5px;
+}
+
+.footer {
+	float:left;
+	font-size:12px;
+	color:#CCCCCC;
+	margin-top: 200px;
+	padding-bottom: 30px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* fine art page */
+#fine_art_note {
+	margin:205px 0 0 260px; 
+	font-size:12px; 
+	color: #666666;
+}
+#watercolor_spot {
+	margin:40px 20px 0px 0px;
+}
+#watercolor_spot a {
+	display:block;
+	background:url("navigation/watercolor_spot_sp.jpg") no-repeat 0 0;
+	width:350px;
+	height:230px;
+	float: left;
+}
+
+#watercolor_spot span {
+	display:none;
+}
+#watercolor_spot #nav1 {
+  background-position: -350px 0px;
+}
+#watercolor_spot #nav1:hover {
+  background-position: 0 0;
+}
+
+#etchings {
+	margin: 40px 20px 0px 390px;
+}
+#etchings a {
+	display:block;
+	background:url("navigation/etchings_sp.jpg") no-repeat 0 0;
+	width:350px;
+	height:230px;
+	/*float: left;*/
+}
+
+#etchings span {
+	display:none;
+}
+#etchings #nav2 {
+  background-position: -350px 0px;
+}
+#etchings #nav2:hover {
+  background-position: 0 0;
+}
